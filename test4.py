@@ -66,7 +66,7 @@ if question == '적용':
     quset = '비슷한 물건', '만약 나라면', '모양이 변한다면'
 
 if keyword and question:
-    preset_text = f'키워드와 질문 유형을 포함하여 질문을 10개 생성합니다.\n\n키워드:{keyword}\n\n질문 유형:{quset}'
+    preset_text = f'키워드와 질문 유형을 포함하여 질문을 생성합니다.\n각 문장마다 번호를 붙여 질문 10개를 제시합니다.\n답변은 생략합니다.\n\n키워드:{keyword}\n\n질문 유형:{quset}'
 
     request_data = {
         'text': preset_text,
